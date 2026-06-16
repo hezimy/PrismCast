@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrismCast</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg-primary: #f5f3fa;
+      --bg-sidebar: #ede9f5;
+      --bg-card: rgba(255, 255, 255, 0.8);
+      --text-primary: #1a1a2e;
+      --text-secondary: #6b7280;
+      --accent-primary: #835be2;
+      --accent-deep: #5e33c1;
+      --accent-dark: #3a197f;
+      --border-color: rgba(131, 91, 226, 0.15);
+      --card-bg: rgba(255, 255, 255, 0.9);
+      --card-border: rgba(131, 91, 226, 0.12);
+      --text-bright: #1a1a2e;
+      --text-muted: #6b7280;
+      --text-dim: #9ca3af;
+      --card-hover: rgba(131,91,226,0.06);
+      --input-bg: rgba(255,255,255,0.8);
+      --progress-track: rgba(131,91,226,0.1);
+      --footer-border: rgba(0,0,0,0.06);
+      --footer-bg: linear-gradient(135deg, rgba(131, 91, 226, 0.20) 0%, rgba(94, 51, 193, 0.10) 100%);
+      --footer-shadow: 0 0 12px rgba(131, 91, 226, 0.08);
+      --titlebar-bg: linear-gradient(90deg, rgba(237, 233, 245, 0.80) 0%, rgba(210, 196, 240, 0.76) 45%, rgba(168, 140, 230, 0.72) 100%);
+      --titlebar-text: #4c1d95;
+      --titlebar-border: rgba(131, 91, 226, 0.18);
+    }
+    :root[data-theme="dark"] {
+      --bg-primary: #1e1035;
+      --bg-sidebar: #261545;
+      --bg-card: rgba(38, 21, 69, 0.5);
+      --text-primary: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --accent-primary: #835be2;
+      --accent-deep: #5e33c1;
+      --accent-dark: #3a197f;
+      --border-color: rgba(131, 91, 226, 0.1);
+      --card-bg: rgba(38, 21, 69, 0.5);
+      --card-border: rgba(131, 91, 226, 0.1);
+      --text-bright: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --card-hover: rgba(131,91,226,0.05);
+      --input-bg: rgba(30,16,53,0.6);
+      --progress-track: rgba(255,255,255,0.08);
+      --footer-border: rgba(255, 255, 255, 0.05);
+      --footer-bg: linear-gradient(135deg, rgba(131, 91, 226, 0.18) 0%, rgba(58, 25, 127, 0.10) 100%);
+      --footer-shadow: 0 0 12px rgba(131, 91, 226, 0.10);
+      --titlebar-bg: linear-gradient(90deg, rgba(58, 25, 127, 0.80) 0%, rgba(94, 51, 193, 0.72) 45%, rgba(131, 91, 226, 0.64) 100%);
+      --titlebar-text: #ede9fe;
+      --titlebar-border: rgba(167, 139, 250, 0.22);
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      overflow: hidden;
+    }
+    #app { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

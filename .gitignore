@@ -1,0 +1,38 @@
+# Build outputs
+prismcast/build/bin/
+prismcast/build/bin/**
+*.exe
+*.dll
+
+# Frontend
+prismcast/frontend/node_modules/
+prismcast/frontend/dist/
+
+# Go
+*.test
+*.out
+prismcast/go.work.sum
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+debug.log
+*.log
+.uploads/
+prismcast/**/cache/
+
+# Local secrets
+.env
+.env.*
+*.local
+
+# Generated / local assets (keep sources in repo)
+# Uncomment if you regenerate icons locally only:
+# prismcast/build/windows/icon.ico
