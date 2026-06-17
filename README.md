@@ -1,4 +1,4 @@
-# PrismCast
+# PrismCast 棱镜投屏
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
